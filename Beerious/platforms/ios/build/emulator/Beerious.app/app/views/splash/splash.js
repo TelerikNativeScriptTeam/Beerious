@@ -1,4 +1,5 @@
 var frameModule = require("ui/frame");
+frameModule.Frame.defaultTransition = { name: "slideBottom" };
 
 exports.loaded = function (argument) {
 	var page = argument.object;
@@ -8,6 +9,11 @@ exports.loaded = function (argument) {
 		duration: 2000
 	})
 	.then(function() {
-		frameModule.topmost().navigate("views/login/login");
+		var navigationEntry = {
+			moduleName: "views/login/login",
+    		clearHistory: true
+		}
+		frameModule.topmost().navigate(navigationEntry);
+		//frameModule.topmost().navigate("views/login/login");
 	});
 };
