@@ -1,2 +1,0 @@
-# Beerious
-nativescript teamwork
