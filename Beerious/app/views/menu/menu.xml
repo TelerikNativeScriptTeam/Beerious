@@ -1,0 +1,11 @@
+<Page loaded="loaded">
+	<StackLayout>
+		<Image src="res://Default" height="400" stretch="none" horizontalAlignment="center"/>
+		<GridLayout columns="auto,auto" rows="auto, auto" horizontalAlignment="center">
+			<Button text="Beers" col="0" />
+			<Button text="My profile" col="1" />
+			<Button text="Friends" col="0" row="1"/>
+			<Button text="Rating" col="1" row="1" />	
+		</GridLayout>
+	</StackLayout>
+</Page>

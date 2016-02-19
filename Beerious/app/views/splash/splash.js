@@ -10,10 +10,10 @@ exports.loaded = function (argument) {
 	})
 	.then(function() {
 		var navigationEntry = {
-			moduleName: "views/login/login",
+			moduleName: "views/menu/menu",
     		clearHistory: true
 		}
 		frameModule.topmost().navigate(navigationEntry);
-		//frameModule.topmost().navigate("views/login/login");
+		//("views/login/login");
 	});
 };
