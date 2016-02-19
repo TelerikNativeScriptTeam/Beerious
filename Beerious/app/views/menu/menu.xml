@@ -1,4 +1,7 @@
 <Page loaded="loaded">
+	<Page.actionBar>
+    	<ActionBar title="Menu"></ActionBar>
+	</Page.actionBar>
 	<StackLayout>
 		<Image src="res://Default" height="400" stretch="none" horizontalAlignment="center"/>
 		<GridLayout columns="auto,auto" rows="auto, auto" horizontalAlignment="center">
