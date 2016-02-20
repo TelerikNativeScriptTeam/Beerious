@@ -1,5 +1,12 @@
 var frameModule = require("ui/frame");
-frameModule.Frame.defaultTransition = { name: "slide" };
+
+exports.loaded = function (argument) {
+		var page = argument.object;
+	if(page.ios) {
+		frameModule.Frame.defaultTransition = { name: "slide" };
+	}
+}
+
 
 exports.beersList = function(argument) {
 	var topmost = frameModule.topmost();
