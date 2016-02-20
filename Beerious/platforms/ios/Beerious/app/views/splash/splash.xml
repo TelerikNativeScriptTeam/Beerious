@@ -1,5 +1,0 @@
-<Page loaded="loaded">
-	<GridLayout>
-		<Image id="imageSplash" src="res://Default" stretch="none" verticalAlignment="center" horizontalAlignment="center" />
-	</GridLayout>
-</Page>
